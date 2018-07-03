@@ -1,11 +1,27 @@
-
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
-div.collapse{
+
+div.collapse {
     position: absolute;
     /*border: 1px solid red;*/
     top: auto;
     right: 100px;
+}
+img.d-inline-block{
+    margin: 2px;
+    float: left;
+    padding: 2px;
+    position: relative;
+}
+div.container {
+    border: 1px solid red;
+    background-color: rgba(207, 207, 207, 0.6);
+    
+}
+
+div.box {
+    border: 1px solid blue;
+    background-color: rgba(207, 207, 207, 0.6);
 }
