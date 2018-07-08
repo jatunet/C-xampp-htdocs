@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 .clearfix{
@@ -16,11 +17,27 @@ div.header{
     border: 1px solid blue;
     float: left;
 }
-.box1{
-    background:red;
+.header{
     text-align: center;
-    width: 10px;
     float: left;
-    margin-left: 2.19cm;
-    margin-top: 10px;
+    margin-left: 239px;
+    margin-top: 16px;
+}
+.paragraph1{
+    text-align: center;    
+    width: 380px;
+    float: left;
+    margin-left: 62px;
+    margin-top: 97px;
+}
+.h1{
+    font-size: 30px;
+}
+.p1{
+    font-size: 25px;
+}
+.hr{
+    border: 1px solid white;
+    width: 0px;
+    height: 0px;
 }
