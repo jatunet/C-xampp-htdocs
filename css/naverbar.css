@@ -5,27 +5,12 @@ body {
 .clearfix{
     clear: both;
 }
-div.collapse {
-    position: absolute;
-    /*border: 1px solid red;*/
-    top: auto;
-    right: 100px;
-}
-div.navbar-brand{
-    margin-left: 20px;
-    float: left;
-    padding: 3px;
-    position: relative;
-    
-}
+
 div.container {
     border: 1px solid red;
     background-color: rgba(207, 207, 207, 0.6);
-    
 }
 div.box {
     border: 1px solid blue;
-    background-color: white;
-
-      
+    background-color: white;  
 }
