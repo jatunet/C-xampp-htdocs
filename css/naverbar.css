@@ -6,7 +6,7 @@ body {
 .clearfix{
     clear: both;
 }
-div.box {
+div.container {
     border: 1px solid blue;
     background-color: white;  
 }
@@ -25,10 +25,8 @@ div.header{
 }
 .paragraph1{
     text-align: center;    
-    width: 380px;
+    width: 100%;
     float: left;
-    margin-left: 62px;
-    margin-top: 97px;
 }
 .h1{
     font-size: 30px;
@@ -40,4 +38,11 @@ div.header{
     border: 1px solid white;
     width: 0px;
     height: 0px;
+}
+div.row{
+    border: 1px solid black;
+    height: 386px;
+    width: 100%;
+    text-align: center;
+    background: url(/Web-A-test/img/family-large6.jpg) no-repeat;
 }
