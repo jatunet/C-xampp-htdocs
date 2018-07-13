@@ -6,12 +6,9 @@ body {
 .clearfix{
     clear: both;
 }
-div.container {
-    border: 1px solid blue;
-    background-color: white;  
-}
 section{
     background-color: rgba(207, 207, 207, 0.6);
+    
 }
 div.header{
     border: 1px solid blue;
@@ -24,7 +21,8 @@ div.header{
     margin-top: 16px;
 }
 .paragraph1{
-    text-align: center;    
+    text-align: center;  
+    margin-top: 90px;
     width: 100%;
     float: left;
 }
@@ -40,9 +38,11 @@ div.header{
     height: 0px;
 }
 div.row{
-    border: 1px solid black;
-    height: 386px;
-    width: 100%;
     text-align: center;
     background: url(/Web-A-test/img/family-large6.jpg) no-repeat;
+    background-size: cover;
+    height: 386px;
+    width: 100%;
+    margin-left: 1px;
+    /*CSS ในส่วนของ img ตรง header*/
 }
